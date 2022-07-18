@@ -1,6 +1,6 @@
 
 hidden = [".config"]
-run = "git fetch --all; git reset --hard; git pull;npm install; npm start;"
+run = "npm install; npm start;"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
