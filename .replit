@@ -1,2 +1,0 @@
-language = "nodejs"
-run = "while [ true ]; do git fetch --all; git reset --hard; git reset --hard origin/main; git stash save; git pull;yarn install; yarn start; done"
